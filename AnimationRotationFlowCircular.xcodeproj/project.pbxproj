@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95CB0C392C8DEFF600790967 /* AnimationRotationFlowCircularApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB0C382C8DEFF600790967 /* AnimationRotationFlowCircularApp.swift */; };
+		95CB0C3B2C8DEFF600790967 /* CircularRotationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB0C3A2C8DEFF600790967 /* CircularRotationAnimation.swift */; };
+		95CB0C3D2C8DEFF900790967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB0C3C2C8DEFF900790967 /* Assets.xcassets */; };
+		95CB0C402C8DEFF900790967 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95CB0C3F2C8DEFF900790967 /* Preview Assets.xcassets */; };
+		95CB0C4A2C8DEFFA00790967 /* AnimationRotationFlowCircularTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB0C492C8DEFFA00790967 /* AnimationRotationFlowCircularTests.swift */; };
+		95CB0C542C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB0C532C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.swift */; };
+		95CB0C562C8DEFFA00790967 /* AnimationRotationFlowCircularUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95CB0C552C8DEFFA00790967 /* AnimationRotationFlowCircularUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95CB0C462C8DEFF900790967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95CB0C2D2C8DEFF600790967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CB0C342C8DEFF600790967;
+			remoteInfo = AnimationRotationFlowCircular;
+		};
+		95CB0C502C8DEFFA00790967 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95CB0C2D2C8DEFF600790967 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95CB0C342C8DEFF600790967;
+			remoteInfo = AnimationRotationFlowCircular;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95CB0C352C8DEFF600790967 /* AnimationRotationFlowCircular.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationRotationFlowCircular.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB0C382C8DEFF600790967 /* AnimationRotationFlowCircularApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRotationFlowCircularApp.swift; sourceTree = "<group>"; };
+		95CB0C3A2C8DEFF600790967 /* CircularRotationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularRotationAnimation.swift; sourceTree = "<group>"; };
+		95CB0C3C2C8DEFF900790967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95CB0C3F2C8DEFF900790967 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		95CB0C452C8DEFF900790967 /* AnimationRotationFlowCircularTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationRotationFlowCircularTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB0C492C8DEFFA00790967 /* AnimationRotationFlowCircularTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRotationFlowCircularTests.swift; sourceTree = "<group>"; };
+		95CB0C4F2C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationRotationFlowCircularUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95CB0C532C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRotationFlowCircularUITests.swift; sourceTree = "<group>"; };
+		95CB0C552C8DEFFA00790967 /* AnimationRotationFlowCircularUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationRotationFlowCircularUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95CB0C322C8DEFF600790967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB0C422C8DEFF900790967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB0C4C2C8DEFFA00790967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95CB0C2C2C8DEFF600790967 = {
+			isa = PBXGroup;
+			children = (
+				95CB0C372C8DEFF600790967 /* AnimationRotationFlowCircular */,
+				95CB0C482C8DEFFA00790967 /* AnimationRotationFlowCircularTests */,
+				95CB0C522C8DEFFA00790967 /* AnimationRotationFlowCircularUITests */,
+				95CB0C362C8DEFF600790967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95CB0C362C8DEFF600790967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95CB0C352C8DEFF600790967 /* AnimationRotationFlowCircular.app */,
+				95CB0C452C8DEFF900790967 /* AnimationRotationFlowCircularTests.xctest */,
+				95CB0C4F2C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95CB0C372C8DEFF600790967 /* AnimationRotationFlowCircular */ = {
+			isa = PBXGroup;
+			children = (
+				95CB0C382C8DEFF600790967 /* AnimationRotationFlowCircularApp.swift */,
+				95CB0C3A2C8DEFF600790967 /* CircularRotationAnimation.swift */,
+				95CB0C3C2C8DEFF900790967 /* Assets.xcassets */,
+				95CB0C3E2C8DEFF900790967 /* Preview Content */,
+			);
+			path = AnimationRotationFlowCircular;
+			sourceTree = "<group>";
+		};
+		95CB0C3E2C8DEFF900790967 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				95CB0C3F2C8DEFF900790967 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95CB0C482C8DEFFA00790967 /* AnimationRotationFlowCircularTests */ = {
+			isa = PBXGroup;
+			children = (
+				95CB0C492C8DEFFA00790967 /* AnimationRotationFlowCircularTests.swift */,
+			);
+			path = AnimationRotationFlowCircularTests;
+			sourceTree = "<group>";
+		};
+		95CB0C522C8DEFFA00790967 /* AnimationRotationFlowCircularUITests */ = {
+			isa = PBXGroup;
+			children = (
+				95CB0C532C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.swift */,
+				95CB0C552C8DEFFA00790967 /* AnimationRotationFlowCircularUITestsLaunchTests.swift */,
+			);
+			path = AnimationRotationFlowCircularUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95CB0C342C8DEFF600790967 /* AnimationRotationFlowCircular */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB0C592C8DEFFA00790967 /* Build configuration list for PBXNativeTarget "AnimationRotationFlowCircular" */;
+			buildPhases = (
+				95CB0C312C8DEFF600790967 /* Sources */,
+				95CB0C322C8DEFF600790967 /* Frameworks */,
+				95CB0C332C8DEFF600790967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimationRotationFlowCircular;
+			productName = AnimationRotationFlowCircular;
+			productReference = 95CB0C352C8DEFF600790967 /* AnimationRotationFlowCircular.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95CB0C442C8DEFF900790967 /* AnimationRotationFlowCircularTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB0C5C2C8DEFFA00790967 /* Build configuration list for PBXNativeTarget "AnimationRotationFlowCircularTests" */;
+			buildPhases = (
+				95CB0C412C8DEFF900790967 /* Sources */,
+				95CB0C422C8DEFF900790967 /* Frameworks */,
+				95CB0C432C8DEFF900790967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CB0C472C8DEFF900790967 /* PBXTargetDependency */,
+			);
+			name = AnimationRotationFlowCircularTests;
+			productName = AnimationRotationFlowCircularTests;
+			productReference = 95CB0C452C8DEFF900790967 /* AnimationRotationFlowCircularTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		95CB0C4E2C8DEFFA00790967 /* AnimationRotationFlowCircularUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95CB0C5F2C8DEFFA00790967 /* Build configuration list for PBXNativeTarget "AnimationRotationFlowCircularUITests" */;
+			buildPhases = (
+				95CB0C4B2C8DEFFA00790967 /* Sources */,
+				95CB0C4C2C8DEFFA00790967 /* Frameworks */,
+				95CB0C4D2C8DEFFA00790967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95CB0C512C8DEFFA00790967 /* PBXTargetDependency */,
+			);
+			name = AnimationRotationFlowCircularUITests;
+			productName = AnimationRotationFlowCircularUITests;
+			productReference = 95CB0C4F2C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95CB0C2D2C8DEFF600790967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					95CB0C342C8DEFF600790967 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					95CB0C442C8DEFF900790967 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 95CB0C342C8DEFF600790967;
+					};
+					95CB0C4E2C8DEFFA00790967 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 95CB0C342C8DEFF600790967;
+					};
+				};
+			};
+			buildConfigurationList = 95CB0C302C8DEFF600790967 /* Build configuration list for PBXProject "AnimationRotationFlowCircular" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95CB0C2C2C8DEFF600790967;
+			productRefGroup = 95CB0C362C8DEFF600790967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95CB0C342C8DEFF600790967 /* AnimationRotationFlowCircular */,
+				95CB0C442C8DEFF900790967 /* AnimationRotationFlowCircularTests */,
+				95CB0C4E2C8DEFFA00790967 /* AnimationRotationFlowCircularUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95CB0C332C8DEFF600790967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB0C402C8DEFF900790967 /* Preview Assets.xcassets in Resources */,
+				95CB0C3D2C8DEFF900790967 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB0C432C8DEFF900790967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB0C4D2C8DEFFA00790967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95CB0C312C8DEFF600790967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB0C3B2C8DEFF600790967 /* CircularRotationAnimation.swift in Sources */,
+				95CB0C392C8DEFF600790967 /* AnimationRotationFlowCircularApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB0C412C8DEFF900790967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB0C4A2C8DEFFA00790967 /* AnimationRotationFlowCircularTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95CB0C4B2C8DEFFA00790967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95CB0C562C8DEFFA00790967 /* AnimationRotationFlowCircularUITestsLaunchTests.swift in Sources */,
+				95CB0C542C8DEFFA00790967 /* AnimationRotationFlowCircularUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95CB0C472C8DEFF900790967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95CB0C342C8DEFF600790967 /* AnimationRotationFlowCircular */;
+			targetProxy = 95CB0C462C8DEFF900790967 /* PBXContainerItemProxy */;
+		};
+		95CB0C512C8DEFFA00790967 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95CB0C342C8DEFF600790967 /* AnimationRotationFlowCircular */;
+			targetProxy = 95CB0C502C8DEFFA00790967 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		95CB0C572C8DEFFA00790967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95CB0C582C8DEFFA00790967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95CB0C5A2C8DEFFA00790967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationRotationFlowCircular/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.AnimationRotationFlowCircular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95CB0C5B2C8DEFFA00790967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"AnimationRotationFlowCircular/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.AnimationRotationFlowCircular;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95CB0C5D2C8DEFFA00790967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.AnimationRotationFlowCircularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationRotationFlowCircular.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimationRotationFlowCircular";
+			};
+			name = Debug;
+		};
+		95CB0C5E2C8DEFFA00790967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.AnimationRotationFlowCircularTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AnimationRotationFlowCircular.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AnimationRotationFlowCircular";
+			};
+			name = Release;
+		};
+		95CB0C602C8DEFFA00790967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.AnimationRotationFlowCircularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationRotationFlowCircular;
+			};
+			name = Debug;
+		};
+		95CB0C612C8DEFFA00790967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = KLM.AnimationRotationFlowCircularUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AnimationRotationFlowCircular;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95CB0C302C8DEFF600790967 /* Build configuration list for PBXProject "AnimationRotationFlowCircular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB0C572C8DEFFA00790967 /* Debug */,
+				95CB0C582C8DEFFA00790967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB0C592C8DEFFA00790967 /* Build configuration list for PBXNativeTarget "AnimationRotationFlowCircular" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB0C5A2C8DEFFA00790967 /* Debug */,
+				95CB0C5B2C8DEFFA00790967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB0C5C2C8DEFFA00790967 /* Build configuration list for PBXNativeTarget "AnimationRotationFlowCircularTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB0C5D2C8DEFFA00790967 /* Debug */,
+				95CB0C5E2C8DEFFA00790967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95CB0C5F2C8DEFFA00790967 /* Build configuration list for PBXNativeTarget "AnimationRotationFlowCircularUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95CB0C602C8DEFFA00790967 /* Debug */,
+				95CB0C612C8DEFFA00790967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95CB0C2D2C8DEFF600790967 /* Project object */;
+}
